@@ -1,9 +1,11 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import Herosection from "@/components/Herosection";
-import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import Whychooseus from "@/components/Whychooseus";
 import {InfiniteMovingCardsDemo} from "@/components/InfiniteMovingCardsDemo"
-import UpcomingWebinars from "@/components/UpcomingWebinars";
+import { CardHoverEffectDemo } from "@/components/CardHoverEffectDemo";
+import WavyBackgroundDemo from "@/components/Instructors";
+import Instructors from "@/components/Instructors";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -14,8 +16,9 @@ export default function Home() {
       <FeaturedCourses/>
       <Whychooseus/>
       <InfiniteMovingCardsDemo/>
-
-
+      <CardHoverEffectDemo/>
+      <Instructors/>
+      <Footer/>
     </main>
   );
 }
