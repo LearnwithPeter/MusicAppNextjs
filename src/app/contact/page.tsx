@@ -4,7 +4,7 @@ import {MeteorsDemo} from "@/components/MeteorsDemo"
 function page() {
   return (
     <div>
-      <MeteorsDemo/>
+      <MeteorsDemo />
     </div>
   )
 }
